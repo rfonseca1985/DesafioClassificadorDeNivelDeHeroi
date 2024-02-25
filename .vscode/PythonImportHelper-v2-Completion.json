@@ -1,0 +1,20 @@
+[
+    {
+        "label": "nome_heroi",
+        "kind": 5,
+        "importPath": "ClassificadorDeNivelDeHeroi",
+        "description": "ClassificadorDeNivelDeHeroi",
+        "peekOfCode": "nome_heroi = input(\"Digite o nome do herói: \")\nxp_heroi = int(input(\"Digite a quantidade de experiência do herói: \"))\n# Utiliza uma estrutura de decisão para determinar o nível com base na quantidade de XP\nif xp_heroi < 1000:\n    nivel = \"Ferro\"\nelif 1001 <= xp_heroi <= 2000:\n    nivel = \"Bronze\"\nelif 2001 <= xp_heroi <= 5000:\n    nivel = \"Prata\"\nelif 5001 <= xp_heroi <= 7000:",
+        "detail": "ClassificadorDeNivelDeHeroi",
+        "documentation": {}
+    },
+    {
+        "label": "xp_heroi",
+        "kind": 5,
+        "importPath": "ClassificadorDeNivelDeHeroi",
+        "description": "ClassificadorDeNivelDeHeroi",
+        "peekOfCode": "xp_heroi = int(input(\"Digite a quantidade de experiência do herói: \"))\n# Utiliza uma estrutura de decisão para determinar o nível com base na quantidade de XP\nif xp_heroi < 1000:\n    nivel = \"Ferro\"\nelif 1001 <= xp_heroi <= 2000:\n    nivel = \"Bronze\"\nelif 2001 <= xp_heroi <= 5000:\n    nivel = \"Prata\"\nelif 5001 <= xp_heroi <= 7000:\n    nivel = \"Ouro\"",
+        "detail": "ClassificadorDeNivelDeHeroi",
+        "documentation": {}
+    }
+]
